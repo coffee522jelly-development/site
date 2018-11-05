@@ -1,106 +1,150 @@
 <!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Coffee's home </title>
+      <!-- Css -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+               <span class="icon-bar inverted top"></span>
+               <span class="icon-bar inverted middle"></span>
+               <span class="icon-bar inverted bottom"></span>
+               </button>
+            </div>
+            <a class="navbar-brand" href="index.html">
+            <!--<img class="logo" src="img/logo.png" alt="logo">-->
+            <h2>L e a v e s</h2>
+            </a>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                  <li class="nav-item"><a class="item-anchor" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="http://coffeeshome.myits.jp/blog/">Blog</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="portfolio.html">PhotoArchives</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Header -->
+      <div class="span12">
+         <div class="col-md-6 no-gutter text-center fill">
+            <h2 class="vcenter">Make a simple.</h2>
+         </div>
+         <div class="col-md-6 no-gutter text-center">
+            <div id="header" data-speed="2" data-type="background">
+               <div id="headslide" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                     <div class="item active">
+                        <img src="img/4.jpg" alt="Slide">
+                     </div>
+                     <div class="item">
+                        <img src="img/3.jpg" alt="Slide">
+                     </div>
+                     <div class="item">
+                        <img src="img/1.jpg" alt="Slide">
+                     </div>
+                     <div class="item">
+                        <img src="img/2.jpg" alt="Slide">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <section id="about">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h1>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>NextSurprise</title>
-    <meta name="author" content="Matthew Howell" />
-    <meta name="description" content="fullPage continuous scrolling demo." />
-    <meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
-    <meta name="Resource-type" content="Document" />
-
-    <link rel="stylesheet" type="text/css" href="js/fullpage.css" />
-    <link rel="stylesheet" type="text/css" href="css/examples.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-    <!--[if IE]>
-        <script type="text/javascript">
-             var console = { log: function() {} };
-        </script>
-    <![endif]-->
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/fullpage.js"></script>
-    <link href="css/jquery.fatNav.css" rel="stylesheet">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.fatNav.min.js"></script>
-    <script>
-    $(document).ready(function() {
-      $.fatNav();
-    });
-</script>
-    <script type="text/javascript">
-        //using document ready...
-        $(document).ready(function(){
-            //initialising fullpage.js in the jQuery way
-            $('#fullpage').fullpage({
-                sectionsColor: ['#eeeeee', '#bbbbbb', '#888888', '#555555'],
-                navigation: true,
-                slidesNavigation: true,
-            });
-
-            // calling fullpage.js methods using jQuery
-            $('#moveSectionUp').click(function(e){
-                e.preventDefault();
-                $.fn.fullpage.moveSectionUp();
-            });
-
-            $('#moveSectionDown').click(function(e){
-                e.preventDefault();
-                $.fn.fullpage.moveSectionDown();
-            });
-        });
-    </script>
-
-    <style type="text/css">
-    #actions{
-        position:fixed;
-        top: 70px;
-        left: 30px;
-        z-index: 99999;
-    }
-    #actions a{
-        background: rgba(0,0,0,0.8);
-        padding: 7px;
-        margin: 2px;
-        color: #ccc;
-        display: inline-block;
-    }
-    #actions a:hover{
-        color: #fff;
-        background: #81A140;
-    }
-    </style>
-</head>
-<body>
-<div class="fat-nav">
-    <div class="fat-nav__wrapper">
-        <ul>
-            <li><a href="#firstPage">Top</a></li>
-            <li><a href="#secondPage">About</a></li>
-            <li><a href="#3rdPage">Works</a></li>
-            <li><a href="#4thPage">Contact</a></li>
-        </ul>
-    </div>
-</div>
-
-<div id="fullpage">
-    <div class="section" id="firstPage">
-            <h1>Next Surprise</h1>
-    </div>
-    <div class="section" id="secondPage">
-        <div class="slide">
-          <h1>About</h1>
-        </div>
-    </div>
-    <div class="section" id="3rdPage">
-        <h1>Works</h1>
-    </div>
-    <div class="section" id="4thPage">
-        <h1>Contact</h1>
-    </div>
-</div>
-
-<script type="text/javascript" src="js/examples.js"></script>
-
-</body>
+                        The mind of exploring beautiful things
+                        <br>
+                        makes a better future.
+                     </h1>
+                     <br>
+                     <img class="img-responsive margin-top-45" src="img/4.jpg" alt="me">
+                  </div>
+               </div>
+               <br>
+               <div class="row margin-top-45">
+                  <div class="col-md-3">
+                     <h2>My story</h2>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                        最近取り組んでいることは、webサイトの構築運用と、ipadでの楽曲制作と動画編集、Webアプリ作成などです。<br>
+                        趣味は、雑貨や小物が好きで、おしゃれなものを探すことと、音楽鑑賞です。観葉植物にもはまっています。
+                     </p>
+                     <br>
+                     <p>
+                        このサイトは、これまで私が作ってきたものを、まとめて客観的に見直すためのものです。
+                     </p>
+                  </div>
+               </div>
+               <div class="row margin-top-45">
+                  <div class="col-md-3">
+                     <h2>History</h2>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                        福岡工業大学　工学部所属
+                        <li>2012-2016 :dtmでの曲作りと音楽鑑賞</li>
+                        <li>2016-2018 :WebアプリやWebサイトの構築</li>
+                     </p>
+                  </div>
+               </div>
+               <!--<div class="row margin-top-45">
+                  <div class="col-md-3">
+                     <h2>Clients</h2>
+                  </div>
+                  <div class="col-md-9">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <ul class="list-unstyled">
+                              <li>Bugatti</li>
+                              <li>Vogue</li>
+                              <li>Class</li>
+                              <li>Hollister</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-4">
+                           <ul class="list-unstyled">
+                              <li>Zara</li>
+                              <li>Coca Cola</li>
+                              <li>Ferrari</li>
+                              <li>Mercedes Benz</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-4">
+                           <ul class="list-unstyled">
+                              <li>Tiger</li>
+                              <li>Capcom</li>
+                              <li>Zara Home</li>
+                              <li>Martini</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>-->
+            </div>
+         </section>
+      </div>
+      <div style="clear:both;"></div>
+      </div>
+      <!-- script -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/menu-color.js"></script>
+      <script src="js/modernizr.js"></script>
+      <script src="js/script.js"></script>
+   </body>
 </html>
